@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ударь ДНСера!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="body__wrapper">
+
+        <div class="game">
+            <div class="grid__wrapper">
+                <div class="grid__item">
+                    <button id="easy">EASY</button>
+                </div>
+                <div class="grid__item">
+                    <button id="medium">MEDIUM</button>
+                </div>
+                <div class="grid__item">
+                    <button id="hard">HARD</button>
+                </div>
+                <div class="grid__item">
+                     <div class="score">
+                        <div class="score__label">
+                            <div class="text">SCORE:</div>
+                        </div>
+                        <div class="score__counter">
+                            <div class="text" id="scoreCounter">0</div>
+                        </div>
+                     </div>
+                </div>
+                <div class="grid__item">
+                    <button id="play">PLAY</button>
+                </div>
+                <div class="grid__item">
+                    <div class="timer">
+                        <div class="timer__counter">
+                            <div class="text" id="timerCounter"></div>
+                        </div>
+                        <div class="timer__progress" id="timerProgress">
+                            <span class="progress" id="progress"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container"></div>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
